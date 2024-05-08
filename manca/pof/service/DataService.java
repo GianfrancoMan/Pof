@@ -338,12 +338,3 @@ public class DataService {
 }
 
 
-// class Test {
-//   public static void main(String[] args) {
-//     DataService dataService = DataService.getInstance();
-//     dataService.utenti.forEach( u -> System.out.println(u));
-//     dataService.prodotti.forEach( p -> System.out.println(p));
-//     dataService.vendite.forEach( v -> System.out.println(v));
-//   }  
-// }
-

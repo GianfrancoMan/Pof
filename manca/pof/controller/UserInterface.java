@@ -43,6 +43,7 @@ public class UserInterface {
 
   /*Displays the main menu */
   private void printMenu(String msg) {
+    System.out.println("***************** Java basic FOOD *****************");
     for(int i=0; i<22; ++i) System.out.print("-");
     System.out.print(" MENU ");
     for(int i=0; i<23; ++i) System.out.print("-");
@@ -98,7 +99,7 @@ public class UserInterface {
   private void executeChoice(int value) {
     switch (value) {
       case 0:
-        System.out.println("Arrivederci .");
+        System.out.println("Arrivederci da Java basic FOOD.");
         System.exit(0);         
         break;
       case 1:
@@ -374,7 +375,8 @@ public class UserInterface {
 
 
 
-
+  /**** Utility Methods ****/
+  
   private String scannerUtility() {
     @SuppressWarnings("resource")
     Scanner scanner = new Scanner(System.in);

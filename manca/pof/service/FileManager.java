@@ -46,7 +46,6 @@ class FileManager {
       return list;
       
     } catch (Exception e) {
-      System.out.println("Exception: " + e.getLocalizedMessage());
       return new ArrayList<String>();
     }
   }
@@ -74,6 +73,8 @@ class FileManager {
 
 
 
+
+  
   /**
    * Replace the content of the csv file which refers pathOption parameter with the content of the list parameter.
    * @param option the option that refers to a csv file.
@@ -119,6 +120,8 @@ class FileManager {
     }
     return true;
   } 
+
+
 
 
 
