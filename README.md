@@ -2,6 +2,8 @@
 ## Technology
 [JavaSE ](https://www.oracle.com/java/technologies/java-se-glance.html)  
 ### To use the application locally:
+- Download and install JDK if you haven't already done so  
+  you can do this by following the instructions on this page [JavaSE Downloads](https://www.oracle.com/it/java/technologies/downloads/)
 - Clone or download the repository
 - Go to the project folder and run the following commands to generete the class files:
   ```
