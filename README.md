@@ -25,5 +25,28 @@
   java -jar food.jar
   ```
 # Description
-### This is  a Java application that simulates the sales management of the POF (Planty Of Food) point of sale.The application is for command line interface and the data source consists of the following csv files which will be loaded during application initialization
-... in progress
+### This is  a Java application that simulates the sales management of the POF (Planty Of Food) point of sale.The application is for command line interface and the data source consists of the following csv files which will be loaded during application initialization, the data separator is a semicolon.  
+  
+**prodotti.csv**  
+| ID | Date of input | Brand | name | price | Available |
+|----|---------------|-------|------|-------|-----------|  
+  
+**utenti.csv**  
+| ID | Name | Surname | Birthdate | Address | Document ID |
+|----|------|---------|-----------|---------|-------------|  
+  
+**vendite.csv**  
+| ID | ID Product  | ID User   |
+|----|-------------|-----------|  
+
+### The user can perform the following operations:  
+| Command | Description                               |
+|---------|-------------------------------------------|
+| 1       | View all products contained in the system |
+| 2       | Purchase an existing product              |
+| 3       | Return a product                          |
+| 4       | Add a new user                            |
+| 5       | Export a file with the available products |
+| 0       | Exit the application                      |
+
+
